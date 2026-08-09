@@ -1,70 +1,196 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🚀 Ayush Nigam — Developer Portfolio
 
-## Available Scripts
+### *Aspiring Full Stack Developer | Python • Django • React.js • AI*
 
-In the project directory, you can run:
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+[![GSAP](https://img.shields.io/badge/GSAP-Animations-88CE02?style=for-the-badge&logo=greensock&logoColor=black)](https://greensock.com/gsap/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![CSS3](https://img.shields.io/badge/CSS3-Animations-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![GitHub](https://img.shields.io/badge/GitHub-nigamayushnigam3--star-181717?style=for-the-badge&logo=github)](https://github.com/nigamayushnigam3-star)
 
-### `npm start`
+<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> A fully animated, dark-themed personal portfolio built with **React.js + GSAP**, featuring constellation particles, aurora backgrounds, 3D tilt cards, glitch text effects, and smooth scroll animations.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br/>
 
-### `npm test`
+**[🌐 Live Demo](#)** &nbsp;•&nbsp; **[📧 Contact](mailto:nigamayushnigam3@gmail.com)** &nbsp;•&nbsp; **[💼 LinkedIn](https://linkedin.com)**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</div>
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📸 Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🏠 Hero Section
+> Constellation network particles, glitch text effect on name, dual spinning rings avatar, aurora background
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Hero Section](screenshots/hero.png)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🛠️ Skills Section
+> Scroll-triggered staggered card animations with hover glow effects
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Skills Section](screenshots/skills.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 💼 Projects Section
+> 3D tilt cards on mouse move, golden hover border, GitHub links
 
-## Learn More
+![Projects Section](screenshots/projects.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🏢 Experience & Education
+> Slide-in animations from left/right with timeline design
 
-### Code Splitting
+![Experience Section](screenshots/experience.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+### 🏆 Certificates & Contact
+> Certificate cards with colored hover effects, animated contact form
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Certificates Section](screenshots/certificates.png)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## ✨ Features & Animations
 
-### Advanced Configuration
+| Feature | Description |
+|---|---|
+| 🌌 **Aurora Background** | 4 morphing color blobs (purple, cyan, golden, green) floating across the page |
+| ⭐ **Constellation Network** | 120 particles with connecting lines that react to mouse movement |
+| ⚡ **Glitch Text Effect** | Periodic glitch animation on hero name |
+| 🌀 **Dual Spinning Rings** | Two counter-rotating gradient rings around avatar |
+| 💛 **Pulse Glow** | Breathing golden glow effect on avatar |
+| 🃏 **3D Tilt Cards** | Project cards tilt in 3D on mouse move with shine overlay |
+| 📜 **ScrollTrigger** | GSAP ScrollTrigger staggered reveals on every section |
+| 🎯 **Smooth Scroll** | Navbar links with smooth scroll to sections |
+| 📱 **Fully Responsive** | Mobile-first design with hamburger menu |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🗂️ Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+PORTFOLIO/
+├── public/
+│   └── index.html
+└── src/
+    ├── components/
+    │   ├── Aurora.jsx       # Morphing gradient background blobs
+    │   ├── Aurora.css
+    │   ├── Navbar.jsx       # Fixed navbar with scroll blur effect
+    │   ├── Navbar.css
+    │   ├── Hero.jsx         # Constellation canvas + glitch + 3D avatar
+    │   ├── Hero.css
+    │   ├── Skills.jsx       # Skill cards with stagger animation
+    │   ├── Skills.css
+    │   ├── Projects.jsx     # 3D tilt project cards
+    │   ├── Projects.css
+    │   ├── Experience.jsx   # Experience & Education timeline
+    │   ├── Experience.css
+    │   ├── Certificates.jsx # Certificate cards
+    │   ├── Certificates.css
+    │   ├── Contact.jsx      # Contact form + info
+    │   ├── Contact.css
+    │   ├── Footer.jsx
+    │   └── Footer.css
+    ├── App.js
+    ├── index.js
+    └── index.css
+```
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🧰 Tech Stack
+
+| Category | Technologies |
+|---|---|
+| **Frontend** | React.js 18, HTML5, CSS3, JavaScript ES6+ |
+| **Animations** | GSAP 3, ScrollTrigger, Canvas API |
+| **Icons** | React Icons (Feather Icons) |
+| **Fonts** | Inter, Space Grotesk (Google Fonts) |
+| **Build Tool** | Create React App |
+| **Version Control** | Git & GitHub |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js >= 14
+- npm >= 6
+
+### Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/nigamayushnigam3-star/AYUSH_PORTFOLIO.git
+
+# 2. Navigate to project folder
+cd AYUSH_PORTFOLIO
+
+# 3. Install dependencies
+npm install
+
+# 4. Start development server
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## 📁 Sections
+
+- **Hero** — Name, title, description, social links, animated avatar
+- **Skills** — Frontend, Backend, Databases, Tools & Concepts
+- **Projects** — FitSync, RakshaX, CrisisAI with GitHub links
+- **Experience** — Techpile Technology Pvt. Ltd. internship
+- **Education** — B.Tech CSE (AIML), Buddha Institute of Technology
+- **Certificates** — 4 certificates from CodeSoft, Techpile, CodeAlpha, TCS iON
+- **Contact** — Email form + contact info
+
+---
+
+## 🔗 Projects Featured
+
+| Project | Description | GitHub |
+|---|---|---|
+| 💪 **FitSync** | Full Stack Fitness Management Platform with Gemini AI | [View](https://github.com/nigamayushnigam3-star/Fitsync) |
+| 🛡️ **RakshaX** | Smart Women's Safety & Emergency Assistance System | [View](https://github.com/nigamayushnigam3-star/RakshaX) |
+| 🚨 **CrisisAI** | AI-Powered Disaster Alert & Rescue Platform | [View](https://github.com/nigamayushnigam3-star/CrisisAI) |
+
+---
+
+## 📬 Contact
+
+| Platform | Link |
+|---|---|
+| 📧 Email | nigamayushnigam3@gmail.com |
+| 📞 Phone | +91-7268920632 |
+| 💼 LinkedIn | [linkedin.com/in/ayush-nigam](https://linkedin.com) |
+| 🐙 GitHub | [github.com/nigamayushnigam3-star](https://github.com/nigamayushnigam3-star) |
+| 📍 Location | Gorakhpur, Uttar Pradesh, India |
+
+---
+
+<div align="center">
+
+**⭐ If you like this portfolio, give it a star!**
+
+Made with ❤️ by **Ayush Nigam**
+
+</div>
