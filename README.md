@@ -145,6 +145,10 @@ npm start
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
+## Resume
+
+[Download Ayush Nigam's resume (PDF)](./public/AYUSHNIGAM_RESUME_AIML27.pdf)
+
 ### Build for Production
 
 ```bash
